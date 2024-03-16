@@ -1,21 +1,16 @@
 <main class="main">
   <div class="content">
-    
-      <div class="player-wrapper">
-        @for (item of [
-          { player: 'Messi' },
-          { player: 'Mbappe'},
-          { player: 'Modric'},
-        ]; track item.player) {
-          <div
-            class="player-wrapper"
-          >
-            <span>{{ item.player }}</span>
-        </div>
-        }
+    @for (player of players; track player.player) {
+      <div class="player-wrapper" >
+        <div
+        class="player-wrapper"
+        >
+        <span>{{ player.player }}</span>
+        </div>   
       </div>
+    }
     
   </div>
 </main>
 
-<!-- <router-outlet /> -->
+<router-outlet />

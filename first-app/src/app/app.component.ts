@@ -9,5 +9,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'first-app';
+  players = [
+    {player: 'Messi' },
+    {player: 'Mbappe'},
+    {player: 'Modric'},
+    {player: 'Mac Allister'}
+  ]
 }

@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "cd first-app && ng serve --open"
+  }
+}
